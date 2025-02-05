@@ -5,9 +5,16 @@ import axios from "axios";
 export default function Dictionary() {
   let [searchWord, setSearchWord] = useState("");
 
+  let url = `https://api.dictionaryapi.dev/api/v2/entries/en/hello`;
+
+  function handleReponse(response) {
+    console.log(response);
+  }
+
   function search(event) {
     event.preventDefault();
     alert(`Searching for the definition of ${searchWord}`);
+    axios.get(url).then(handleReponse);
   }
 
   function handleWordChange(event) {
