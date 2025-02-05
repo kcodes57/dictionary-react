@@ -1,4 +1,5 @@
 import Dictionary from "./Dictionary.js";
+import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 
 function App() {
