@@ -10,7 +10,6 @@ export default function Dictionary() {
   let url = `https://api.shecodes.io/dictionary/v1/define?word=${searchWord}&key=${key}`;
 
   function handleReponse(response) {
-    console.log(response.data);
     setResults(response.data);
   }
 
