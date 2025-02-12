@@ -2,6 +2,10 @@ body {
   background-color: #baaadb;
   padding: 100px;
 }
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
 
 footer {
   text-align: center;
