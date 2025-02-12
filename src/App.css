@@ -2,3 +2,22 @@ body {
   background-color: #baaadb;
   padding: 100px;
 }
+
+footer {
+  text-align: center;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+}
