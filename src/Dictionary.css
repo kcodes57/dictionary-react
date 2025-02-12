@@ -6,6 +6,11 @@
   margin: 50px;
 }
 
+.Dictionary h1 {
+  text-align: center;
+  font-size: 28px;
+}
+
 .Dictionary input {
   width: 100%;
   text-align: center;

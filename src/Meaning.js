@@ -5,9 +5,7 @@ import "./Meaning.css";
 export default function Results(props) {
   return (
     <div className="Meaning">
-      <h3>
-        <em>{props.meaning.partOfSpeech}</em>
-      </h3>
+      <h3 className="speech">{props.meaning.partOfSpeech}</h3>
 
       <div className="definition">{props.meaning.definition}</div>
 

@@ -27,7 +27,11 @@ export default function Dictionary() {
     <div className="Dictionary">
       <section>
         <form onSubmit={search}>
-          <input type="search" onChange={handleWordChange} />
+          <input
+            type="search"
+            placeholder="What word do you want to look up?"
+            onChange={handleWordChange}
+          />
           <div className="hint">
             example: wine, yoga, plants, forest, sunset...
           </div>
